@@ -198,20 +198,26 @@
 .have span{
     color: #b40588;
 }
-
+.phone-img{
+    width: 100%;
+}
 
 @media screen and (max-width: 600px) {
     .with-button{
         font-size: 150%;
-        width: 100% !important;
+        width: 70% !important;
     }
 
     .topmost{
-        padding: 12% 15% 12% 8%;
+        padding: 20% 15% 20% 8%;
     }
 
     .hi{
         padding: 5%;
         font-size: 120%;
+    }
+
+    .phone{
+        padding-top: 5%;
     }
     }

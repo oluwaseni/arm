@@ -26,7 +26,7 @@
 
             <ul>
             <div class="dropdown">
-                <button routerLink="home" class="dropbtn">Home</button>
+                <button  (click)="home()" class="dropbtn">Home</button>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">ABOUT US</button>
@@ -82,14 +82,14 @@
                 <button class="dropbtn">MEDIA <i class="fas fa-caret-down"></i></button>
                 <div class="dropdown-content">
                     <a href="#">Resource Files</a>
-                    <a routerLink="blog">BLog</a>
+                    <a  (click)="blog()">BLog</a>
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">CONTACT <i class="fas fa-caret-down"></i></button>
                 <div class="dropdown-content">
-                    <a routerLink="contact">Contact Us</a>
+                    <a (click)="contact()">Contact Us</a>
                     <a href="#">FAQ</a>
                 </div>
             </div>
@@ -112,7 +112,7 @@
     <ul class="navbar-nav throw">
         <li>
         <div class="dropdown">
-            <button routerLink="home" class="dropbtn">Home</button>
+            <button  (click)="home()" class="dropbtn">Home</button>
         </div>
     </li>
     <li>
@@ -177,7 +177,7 @@
             <button class="dropbtn">MEDIA <i class="fas fa-caret-down"></i></button>
             <div class="dropdown-content">
                 <a href="#">Resource Files</a>
-                <a routerLink="blog">BLog</a>
+                <a  (click)="blog()">BLog</a>
             </div>
         </div>
         </li>
@@ -185,7 +185,7 @@
         <div class="dropdown">
             <button class="dropbtn">CONTACT <i class="fas fa-caret-down"></i></button>
             <div class="dropdown-content">
-                <a routerLink="contact">Contact Us</a>
+                <a  (click)="contact()">Contact Us</a>
                 <a href="#">FAQ</a>
             </div>
         </div>
