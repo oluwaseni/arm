@@ -1,0 +1,28 @@
+.cover{
+    padding-top: 10%;
+}
+
+.top{
+    padding: 5% 29% 5% 29%;
+    background-color: #f7b1a9;
+    font-size: 200%;
+    font-weight: bold;
+    color: #04335a;
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 70%;
+}
+
+.title{
+    width: 80% !important;
+    font-size: 170%;
+    font-weight: bold;
+    color: #04335a;
+}
+
+.card{
+    padding: 5%;
+    border: none
+}

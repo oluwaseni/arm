@@ -1,0 +1,34 @@
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(59, 39, 39);
+    color: white;
+    text-align: center;
+    padding: 5% 15% 5% 15%;
+  }
+
+  .graph{
+      padding-top: 3%;
+      text-align: left !important;
+  }
+
+  .foot-head{
+      font-weight: bold;
+  }
+
+  li{
+      list-style: none;
+      /* padding-left: -10px !important; */
+      font-size: 80%;
+      color: #c7c1c7;
+      padding: 2% 0% 2% 10%
+
+  }
+
+  ul{
+      padding-left: 0px;
+      text-align: left;
+      /* margin-left: -10px !important; */
+  }

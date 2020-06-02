@@ -1,0 +1,199 @@
+.cover{
+    padding-top: 5% !important;
+}
+
+
+.topmost{
+    padding: 8% 15% 6% 8%;
+    background-image: url('/assets/images/top.jpg');
+    background-size: cover;
+    background-position-y: 30%;
+    /* background: linear-gradient( #635538); */
+}
+
+.with-button{
+    font-size: 250%;
+    font-weight: bold;
+    width: 40% !important;
+    color: #ffffff;
+}
+
+.btn{
+    background-color: #b40588;
+    color: #ffffff;
+    padding: 2% 12% 2% 12%;
+    padding-right: 15%;
+}
+
+.second{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* height: 400px; */
+}
+
+/* .the-images{
+    height: 400px;
+} */
+
+.the-image{
+    /* height:400px */
+    height: 400px !important;
+    /* width: 200px !important; */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-image: url('/assets/images/1.jpg');
+    transition: background-position-x 2s, height 1s ease-in;
+-moz-transition: background-position-x 2s, height 1s ease-in;
+-ms-transition: background-position-x 2s, height 1s ease-in;
+-o-transition: background-position-x 2s, height 1s ease-in;
+-webkit-transition: background-position-x 2s, height 1s ease-in;
+}
+.the-image2{
+    /* height:400px */
+    height: 400px !important;
+    /* width: 200px !important; */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-image: url('/assets/images/2.jpg');
+    transition: background-position-x 2s, height 1s ease-in;
+-moz-transition: background-position-x 2s, height 1s ease-in;
+-ms-transition: background-position-x 2s, height 1s ease-in;
+-o-transition: background-position-x 2s, height 1s ease-in;
+-webkit-transition: background-position-x 2s, height 1s ease-in;
+}
+.the-image3{
+    /* height:400px */
+    height: 400px !important;
+    /* width: 200px !important; */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-image: url('/assets/images/3.jpg');
+    transition: background-position-x 2s, height 1s ease-in;
+-moz-transition: background-position-x 2s, height 1s ease-in;
+-ms-transition: background-position-x 2s, height 1s ease-in;
+-o-transition: background-position-x 2s, height 1s ease-in;
+-webkit-transition: background-position-x 2s, height 1s ease-in;
+    
+}
+.the-image4{
+    /* height:400px */
+    height: 400px !important;
+    /* width: 200px !important; */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-image: url('/assets/images/4.jpg');
+    transition: background-position-x 2s, height 1s ease-in;
+-moz-transition: background-position-x 2s, height 1s ease-in;
+-ms-transition: background-position-x 2s, height 1s ease-in;
+-o-transition: background-position-x 2s, height 1s ease-in;
+-webkit-transition: background-position-x 2s, height 1s ease-in;
+}
+
+.im:hover{
+    background-position-x: 80% !important; 
+    background-position-y: 10% !important; 
+    height: 390px !important;   
+}
+
+.texts:hover{
+    bottom: 6%;
+}
+
+.texts{
+    position: absolute;
+    bottom: 5%;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hi{
+    font-size: 200%;
+    font-weight: bold;
+    color: #043575;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 9%;
+}
+
+.third{
+    padding: 5%;
+    background-color: #ffe07b;
+}
+
+.soli{
+    font-size: 200%;
+    font-weight: bold;
+    color: #043575;
+}
+
+.fourth{
+    padding: 5%;
+    background-color: #f1d5d5;
+}
+
+.fifth{
+    padding: 5%;
+}
+.sixth{
+    padding: 5%;
+    padding-bottom: 0%;
+    background-color: #fadcdc;
+}
+
+.manage{
+    margin: auto;
+    padding-left: 10%;
+}
+
+.phone{
+    padding-left: 10% !important;
+}
+
+.topic{
+    font-size: 200%;
+    color: #043575;
+    font-weight: bold;
+}
+
+.sub-topic{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.topic-talk{
+    color: #777474;
+    padding-bottom: 10%;
+}
+
+.the-form{
+    box-shadow: 2px 2px 2px 2px #777474;
+    border-radius: 5px;
+    padding: 10%;
+    /* padding-right: 0%; */
+}
+
+.bold{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.forma{
+    padding-top: 0%;
+    padding: 5%;
+    margin-left: 10% !important;
+}
+
+.have{
+    font-size: 80%;
+}
+
+.have span{
+    color: #b40588;
+}

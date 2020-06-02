@@ -1,0 +1,98 @@
+
+.fifth{
+    padding: 5%;
+}
+.cover{
+    padding-top: 5% !important;
+}
+
+
+.topmost{
+    padding: 8% 15% 6% 8%;
+    background-image: url('/assets/images/top.jpg');
+    background-size: cover;
+    background-position-y: 30%;
+    /* background: linear-gradient( #635538); */
+}
+
+.with-button{
+    font-size: 250%;
+    font-weight: bold;
+    width: 40% !important;
+    color: #ffffff;
+}
+
+.btn{
+    background-color: #b40588;
+    color: #ffffff;
+    padding: 2% 12% 2% 12%;
+    padding-right: 15%;
+}
+
+.manage{
+    margin: auto;
+    padding-left: 10%;
+}
+
+.phone{
+    padding-left: 10% !important;
+}
+
+.topic{
+    font-size: 200%;
+    color: #043575;
+    font-weight: bold;
+}
+
+.sub-topic{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.topic-talk{
+    color: #777474;
+    padding-bottom: 10%;
+}
+
+.the-form{
+    box-shadow: 2px 2px 2px 2px #777474;
+    border-radius: 5px;
+    padding: 5%;
+    padding-bottom: 15%;
+}
+
+.the-forms{
+    padding: 5%;
+}
+
+.bold{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.forma{
+    padding-top: 0%;
+    padding: 5%;
+    margin-left: 10% !important;
+}
+
+.have{
+    font-size: 80%;
+}
+
+.have span{
+    color: #b40588;
+}
+
+.quarters{
+    padding: 5%;
+}
+
+.hq{
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.branch{
+    font-size: 80%;
+}

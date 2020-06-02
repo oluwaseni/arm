@@ -1,0 +1,85 @@
+<app-header></app-header>
+<div class="cover">
+    <div class="map">
+
+    </div>
+
+    <div class="fifth">
+        <div class="row">
+            <div class="talks col-md-5">
+                <div class="the-forms">
+                    <span class="topic">
+                        Give us a call
+                        <h6>01-2715000 or 0700CALLARM(0700 2255 276) </h6>
+                    </span>
+                    <div  [formGroup]="formModel" class="the-rest">
+                        <span>Leave us a message </span><br>
+                        <div class="form-group">
+                            <label for="current" class="rsa">Email address</label>
+                            <input type="text" class="form-control" formControlName="email"  >
+                        </div>
+                        <div class="form-group">
+                            <label for="current" class="rsa">Name</label>
+                            <input type="text" class="form-control" formControlName="fullName">
+                        </div>
+                        <div class="form-group">
+                            <label for="current" class="rsa">Phone Number</label>
+                            <input type="text" class="form-control" formControlName="mobile"  placeholder="+234">
+                        </div>
+                        <div class="form-group">
+                            <label for="current" class="rsa">Message</label>
+                            <textarea  class="form-control" formControlName="message" name="message" id="" cols="30" rows="4"></textarea>
+                            <!-- <input type="date" class="form-control"  placeholder="0"> -->
+                        </div>
+                        <div class="form-group">
+                            <button class="btn form-control" (click)="sendMail()"> Submit </button>
+                        </div>
+                        <div class="topic">
+                            More ways to reach us
+                            <!-- <br><br><span>Try our advanced retirement planning tool </span> -->
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="col-md-5 forma">
+                <div class="the-form">
+                    <span class="topic">
+                        Branch Locator
+                    </span>
+                    <div class="form-group">
+                        <input type="text" class="form-control"  placeholder="Search Branch By State or LGA">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn form-control"> Search </button>
+                    </div>
+                    <div class="the-rest">
+                        <div class="quarters">
+                            <div class="hq">
+                                HEAD QUARTERS
+                            </div><hr>
+                            <div class="branch">
+                                <div>5, Mekunwen Rd Off Oyinkan Abayomi Drive
+                                    Ikoyi, Lagos</div>
+                                <div>01-2715000, 0700CALLARM(0700 2255 276)</div>
+                            </div>
+                        </div>
+                        <div class="quarters">
+                            <div class="hq">
+                                LAGOS OPERATIONS OFFICE
+                            </div><hr>
+                            <div class="branch">
+                                <div>5, Mekunwen Rd Off Oyinkan Abayomi Drive
+                                    Ikoyi, Lagos</div>
+                                <div>01-2715000, 0700CALLARM(0700 2255 276)</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
