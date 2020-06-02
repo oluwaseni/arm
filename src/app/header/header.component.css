@@ -76,7 +76,7 @@
   }
   .top{
       padding: 0% 15% 0% 10%;
-      box-shadow: 2px 0px 3px 2px 2px 2px 2px #7a7878;
+      box-shadow: 2px 0px 3px 2px #7a7878;
       background-color: #ffffff;
   }
 
@@ -95,3 +95,10 @@
   .dropdown:hover .dropbtn {border-bottom: 3px solid #8b0458;}
 
   
+
+  /* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  half-top {
+    display: none;
+  }
+}
