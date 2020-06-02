@@ -1,5 +1,6 @@
 .cover{
     padding-top: 5% !important;
+    overflow-x: hidden;
 }
 
 
@@ -115,11 +116,11 @@
 }
 
 .hi{
-    font-size: 200%;
+    font-size: 180%;
     font-weight: bold;
     color: #043575;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    margin-left: 9%;
+    padding: 5%;
 }
 
 .third{
@@ -197,3 +198,20 @@
 .have span{
     color: #b40588;
 }
+
+
+@media screen and (max-width: 600px) {
+    .with-button{
+        font-size: 150%;
+        width: 100% !important;
+    }
+
+    .topmost{
+        padding: 12% 15% 12% 8%;
+    }
+
+    .hi{
+        padding: 5%;
+        font-size: 120%;
+    }
+    }

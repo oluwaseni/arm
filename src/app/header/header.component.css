@@ -94,11 +94,59 @@
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {border-bottom: 3px solid #8b0458;}
 
+  .two{
+    display: none;
+  }
   
 
   /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
-  half-top {
+  .half-top {
     display: none;
   }
+
+  .throw{
+
+    padding-left: 0% !important;
+    margin-left: -50% !important;
+  }
+
+  ul, li{
+    padding-left: 0% !important;
+    margin-left: 0% !important;
+  }
+
+  .dropdown-content{
+    position: absolute;
+    /* left: -30%; */
+    opacity: 0.9;
+  }
+  .top{
+    padding-left: 0%;
+  }
+
+  .half-bottom{
+    padding-right: 10%;
+    padding-left: 0% !important;
+  }
+
+  .one{
+    display: none;
+  }
+  .two{
+    display: block;
+  }
+
+.tog{
+  position: fixed;
+  top: 3%;
+  right: 2%;
+  z-index: inherit 200;
+}
+
+#navbarSupportedContent{
+  /* position: absolute; */
+  opacity: 0.9;
+
+}
 }
